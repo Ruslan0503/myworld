@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>picts</title>
+</head>
+<body>
+    <div style="display: flex; flex-wrap: wrap; width: 100%; gap:20px;">
+    	{% for x in picts %}
+	     <img src="{{x.image.url}}" width="30%;">
+	    {% endfor %}
+    </div>
+</body>
+</html>
